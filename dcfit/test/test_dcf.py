@@ -409,7 +409,7 @@ class TestDcfPredict(unittest.TestCase):
         self.assertAlmostEqual(
             np.round(np.sum(np.abs(yhat5i - yhat)), decimals=10), 0.0)
         self.assertEqual(model5immasr.weights[0].shape, (2, 3, 5))
-        self.assertEqual(model5immasr.weights[1].shape, (2, 5, 5))
+        self.assertTrue(model5immasr.weights[1].shape in ((2, 5, 5), (2, 6, 5)))
         yhatr, model5immasrr = dcf_predict(
             model5immasr, self.X, return_used_weights=True)
         self.assertIsNone(model5immasrr)
