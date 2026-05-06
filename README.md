@@ -1,3 +1,4 @@
+[![Build](https://github.com/gabalz/dcfit/actions/workflows/python-package.yml/badge.svg)](https://github.com/gabalz/dcfit/actions/workflows/python-package.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # DCFit package
