@@ -673,7 +673,7 @@ def dcf_train(
     X, y, variant, is_convex, is_symmetrized,
     use_L=False, L=None,
     L_regularizer='max(1.0, x_radius)**2 * (d*K/n)',  # theta_1
-    L_regularizer_offset='(y_radius/x_radius)*np.log(n)',  # theta_3
+    L_regularizer_offset='(y_radius/max(1.0, x_radius))*np.log(n)',  # theta_3
     bias_regularizer=0.0,
     L_sum_regularizer='(x_radius/n)**2',  # theta_2
     normalize=True,

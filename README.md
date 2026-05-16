@@ -5,14 +5,15 @@
 
 A Python library of delta-convex fitting algorithms.
 
+-------------------------------------------------------------------------------------------------
 ## References
 
 > Near-optimal delta-convex estimation of Lipschitz functions, \
 > *Gabor Balazs,* \
 > arXiv, 2025 ([paper](https://doi.org/10.48550/arXiv.2511.15615)).
 
-----------------------------------------------------------------------------------------------------
-# PYTHON ENVIRONMENT
+--------------------------------------------------------------------------------------------------
+## PYTHON ENVIRONMENT
 
 The installation of a minimal virtual environment to show the requirements of running the code.
 
@@ -34,13 +35,13 @@ pip install -r requirements.txt  # recommended
 pip install joblib pandas widgetsnbextension jupyter matplotlib seaborn papermill
 ```
 
----------------------------------------------------------------------------------------------------
-# EXPERIMENTS
+-------------------------------------------------------------------------------------------------
+## EXPERIMENTS
 
 For examples, explore the `dataset.ipynb` notebook which can run experiments on various public datasets.
 
----------------------------------------------------------------------------------------------------
-# UNIT TESTING
+-------------------------------------------------------------------------------------------------
+## UNIT TESTING
 
 All the tests can be run by using pytest:
 ```bash
